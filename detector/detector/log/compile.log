@@ -1,0 +1,15 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\Amelie\Escritorio\practica10\detector\detector.vhd
+ Compile Entity "detector"
+ Compile Architecture "aDetector" of Entity "detector"
+Error:  ELAB1_0008:detector.vhd : (29, 9): Cannot read output : "d".
+Error:  ELAB1_0008:detector.vhd : (30, 9): Cannot read output : "u".
+Error:  ELAB1_0008:detector.vhd : (32, 9): Cannot read output : "u".
+Error:  ELAB1_0008:detector.vhd : (34, 11): Cannot read output : "d".
+Error:  ELAB1_0008:detector.vhd : (36, 10): Cannot read output : "u".
+Error:  ELAB1_0008:detector.vhd : (39, 9): Cannot read output : "u".
+Error:  ELAB1_0008:detector.vhd : (41, 10): Cannot read output : "d".
+Error:  ELAB1_0008:detector.vhd : (43, 10): Cannot read output : "u".
+ Top-Level unit detected
+ Entity  =>   detector
+ Compile failure 8 Errors 0 Warnings  Analysis time :  0.0 [s]

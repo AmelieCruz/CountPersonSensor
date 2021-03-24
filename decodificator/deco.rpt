@@ -1,0 +1,419 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  deco.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalc22v10d-25pc -b deco.vhd -u decoGal.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Thu Dec 10 22:03:39 2020
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Thu Dec 10 22:03:39 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Thu Dec 10 22:03:40 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+Deleted 0 User equations/components.
+Deleted 14 Synthesized equations/components.
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 8 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+Created 42 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (22:03:41)
+
+Input File(s): deco.pla
+Device       : C22V10
+Package      : palc22v10d-25pc
+ReportFile   : deco.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (22:03:41)
+
+Messages:
+  Information: Optimizing logic using best output polarity for signals:
+         display(0) display(1) display(2) display(3) display(4) display(5)
+         display(6)
+
+  Information: Selected logic optimization OFF for signals:
+         contanillo(0).D contanillo(0).AP contanillo(0).C contanillo(1).D
+         contanillo(1).AP contanillo(1).C contanillo(2).D contanillo(2).AR
+         contanillo(2).C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (22:03:41)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+  Information: Selecting D register equation as minimal for signal contanillo(2)
+  Information: Inverting Preset/Reset & output logic polarity for contanillo(0).
+  Information: Selecting D register equation as minimal for signal contanillo(0)
+  Information: Inverting Preset/Reset & output logic polarity for contanillo(1).
+  Information: Selecting D register equation as minimal for signal contanillo(1)
+  Information: Optimizing logic without changing polarity for signals:
+         display(0) display(1) display(2) display(3) display(4) display(5)
+         display(6)
+
+  Information: Selected logic optimization OFF for signals:
+         contanillo(0).D contanillo(0).AR contanillo(0).SP contanillo(0).C
+         contanillo(1).D contanillo(1).AR contanillo(1).SP contanillo(1).C
+         contanillo(2).D contanillo(2).AR contanillo(2).SP contanillo(2).C
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (22:03:41)
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (22:03:41)
+</CYPRESSTAG>
+
+    /contanillo(0).D =
+          /contanillo(2).Q 
+
+    contanillo(0).AR =
+          clr 
+
+    contanillo(0).SP =
+          GND
+
+    contanillo(0).C =
+          clk 
+
+    /contanillo(1).D =
+          /contanillo(0).Q 
+
+    contanillo(1).AR =
+          clr 
+
+    contanillo(1).SP =
+          GND
+
+    contanillo(1).C =
+          clk 
+
+    contanillo(2).D =
+          contanillo(1).Q 
+
+    contanillo(2).AR =
+          clr 
+
+    contanillo(2).SP =
+          GND
+
+    contanillo(2).C =
+          clk 
+
+    display(0) =
+          contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(0) * 
+          d(2) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(1) * 
+          d(2) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * d(1) * 
+          /d(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(0) * 
+          u(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(1) * 
+          u(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * u(1) * 
+          /u(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * u(3) 
+
+    display(1) =
+          contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(0) * 
+          d(2) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(1) * 
+          d(2) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(0) * 
+          /d(1) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(0) * 
+          u(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(1) * 
+          u(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(0) * 
+          /u(1) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * u(3) 
+
+    display(2) =
+          contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(0) * 
+          d(1) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(0) * 
+          /d(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(0) * 
+          u(1) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(0) * 
+          /u(2) 
+
+    display(3) =
+          contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * d(0) * 
+          /d(1) * d(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * u(0) * 
+          /u(1) * u(2) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(0) * 
+          d(1) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * d(1) * 
+          /d(2) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(0) * 
+          /d(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(0) * 
+          u(1) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * u(1) * 
+          /u(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(0) * 
+          /u(2) 
+
+    /display(4) =
+          /contanillo(1).Q * /d(0) * d(1) * /d(2) 
+        + contanillo(1).Q * /u(0) * u(1) * /u(2) 
+        + contanillo(0).Q * contanillo(1).Q 
+        + /contanillo(0).Q * /contanillo(1).Q 
+        + /contanillo(2).Q 
+
+    display(5) =
+          /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * u(0) * 
+          u(1) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * d(0) * 
+          d(1) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(0) * 
+          /d(1) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(0) * 
+          /u(1) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(2) 
+
+    display(6) =
+          /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * u(0) * 
+          u(2) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * d(0) * 
+          d(2) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * /d(0) * 
+          /d(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * /u(0) * 
+          /u(2) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * u(3) 
+        + /contanillo(0).Q * contanillo(1).Q * contanillo(2).Q * u(1) 
+        + contanillo(0).Q * /contanillo(1).Q * contanillo(2).Q * d(1) 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (22:03:41)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (22:03:41)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+            clk =| 1|                                  |24|* not used       
+           u(3) =| 2|                                  |23|= display(6)     
+           u(2) =| 3|                                  |22|= display(0)     
+           u(1) =| 4|                                  |21|= display(4)     
+           u(0) =| 5|                                  |20|= contanillo(2)  
+           d(2) =| 6|                                  |19|= contanillo(0)  
+           d(1) =| 7|                                  |18|= contanillo(1)  
+           d(0) =| 8|                                  |17|= display(2)     
+            clr =| 9|                                  |16|= display(5)     
+       not used *|10|                                  |15|= display(1)     
+       not used *|11|                                  |14|= display(3)     
+       not used *|12|                                  |13|* not used       
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (22:03:41)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    8  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |   10  |   10  |
+                 ______________________________________
+                                          19  /   22   = 86  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  display(3)      |   8  |   8  |
+                 | 15  |  display(1)      |   7  |  10  |
+                 | 16  |  display(5)      |   6  |  12  |
+                 | 17  |  display(2)      |   4  |  14  |
+                 | 18  |  contanillo(1)   |   1  |  16  |
+                 | 19  |  contanillo(0)   |   1  |  16  |
+                 | 20  |  contanillo(2)   |   1  |  14  |
+                 | 21  |  display(4)      |   5  |  12  |
+                 | 22  |  display(0)      |   7  |  10  |
+                 | 23  |  display(6)      |   7  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                             47  / 121   = 38  %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (22:03:41)
+
+Messages:
+  Information: Output file 'deco.pin' created.
+  Information: Output file 'deco.jed' created.
+
+  Usercode:    
+  Checksum:    1E7D
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 22:03:41

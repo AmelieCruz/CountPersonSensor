@@ -1,0 +1,10 @@
+ENTITY deco IS
+    PORT (
+	clr : in std_logic  ; 
+	clk : in std_logic  ; 
+	u : in std_logic_vector (3 downto 0) ; 
+	d : in std_logic_vector (2 downto 0) ; 
+	display : inout std_logic_vector (6 downto 0) ; 
+	contanillo : inout std_logic_vector (2 downto 0)
+    ) ;
+END deco ;

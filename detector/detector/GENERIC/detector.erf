@@ -1,0 +1,14 @@
+MESSAGE "File: C:\Documents and Settings\Amelie\Escritorio\practica10\detector\detector.vhd" 
+MESSAGE "Compile Entity "detector"" 
+MESSAGE "Compile Architecture "aDetector" of Entity "detector"" 
+ERROR ELAB1_0008: "Cannot read output : "d"." "C:\Documents and Settings\Amelie\Escritorio\practica10\detector\detector.vhd" 29 9
+ERROR ELAB1_0008: "Cannot read output : "u"." "C:\Documents and Settings\Amelie\Escritorio\practica10\detector\detector.vhd" 30 9
+ERROR ELAB1_0008: "Cannot read output : "u"." "C:\Documents and Settings\Amelie\Escritorio\practica10\detector\detector.vhd" 32 9
+ERROR ELAB1_0008: "Cannot read output : "d"." "C:\Documents and Settings\Amelie\Escritorio\practica10\detector\detector.vhd" 34 11
+ERROR ELAB1_0008: "Cannot read output : "u"." "C:\Documents and Settings\Amelie\Escritorio\practica10\detector\detector.vhd" 36 10
+ERROR ELAB1_0008: "Cannot read output : "u"." "C:\Documents and Settings\Amelie\Escritorio\practica10\detector\detector.vhd" 39 9
+ERROR ELAB1_0008: "Cannot read output : "d"." "C:\Documents and Settings\Amelie\Escritorio\practica10\detector\detector.vhd" 41 10
+ERROR ELAB1_0008: "Cannot read output : "u"." "C:\Documents and Settings\Amelie\Escritorio\practica10\detector\detector.vhd" 43 10
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   detector" 
+MESSAGE "Compile failure 8 Errors 0 Warnings  Analysis time :  0.0 [s]" 

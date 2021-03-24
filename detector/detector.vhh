@@ -1,0 +1,9 @@
+ENTITY detector IS
+    PORT (
+	clr : in std_logic  ; 
+	clk : in std_logic  ; 
+	sen : in std_logic_vector (1 downto 0) ; 
+	d : inout std_logic_vector (2 downto 0) ; 
+	u : inout std_logic_vector (3 downto 0)
+    ) ;
+END detector ;
